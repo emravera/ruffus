@@ -7,6 +7,9 @@
   "browser": {
     "./sfc": "src/text-component.vue"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
     "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/text-component.umd.js",
