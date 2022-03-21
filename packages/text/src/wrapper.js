@@ -1,4 +1,4 @@
-// Import vue component
+// Import test vue component
 import component from './text-component.vue';
 
 // Declare install function executed by Vue.use()
