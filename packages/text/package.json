@@ -1,6 +1,6 @@
 {
   "name": "@ruffus/text",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/text-component.umd.js",
   "module": "dist/text-component.esm.js",
   "unpkg": "dist/text-component.min.js",
