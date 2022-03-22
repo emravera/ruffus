@@ -1,3 +1,3 @@
-# Ruffus Text component
+# Ruffus Button component
 
-Vue text component
+Vue button component composed
