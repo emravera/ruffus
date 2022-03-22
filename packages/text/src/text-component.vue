@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style scoped>
-@import "./node_modules/bulma/css/bulma.css";
+    @import "../node_modules/bulma/css/bulma.css";
     .size-1 {
         font-size: 48px;
     }

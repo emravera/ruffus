@@ -160,11 +160,11 @@ __vue_render__._withStripped = true;
   /* style */
   var __vue_inject_styles__ = function (inject) {
     if (!inject) { return }
-    inject("data-v-3ef96eb8_0", { source: "\n@import \"./node_modules/bulma/css/bulma.css\";\n.size-1[data-v-3ef96eb8] {\n        font-size: 48px;\n}\n", map: {"version":3,"sources":["/Users/emravera/Traackr/ruffus/packages/text/src/text-component.vue"],"names":[],"mappings":";AAmBA,4CAAA;AACA;QACA,eAAA;AACA","file":"text-component.vue","sourcesContent":["<template>\n    <h1 class=\"size-1 p-2\">\n        {{ text }}\n    </h1>\n</template>\n\n<script>\nexport default {\n    props: {\n        text: {\n            type: String,\n            default: '',\n            required: false\n        }\n    }\n}\n</script>\n\n<style scoped>\n@import \"./node_modules/bulma/css/bulma.css\";\n    .size-1 {\n        font-size: 48px;\n    }\n</style>\n"]}, media: undefined });
+    inject("data-v-4a7b5464_0", { source: "\n@import \"../node_modules/bulma/css/bulma.css\";\n.size-1[data-v-4a7b5464] {\n    font-size: 48px;\n}\n", map: {"version":3,"sources":["/Users/emravera/Traackr/ruffus/packages/text/src/text-component.vue"],"names":[],"mappings":";AAmBA,6CAAA;AACA;IACA,eAAA;AACA","file":"text-component.vue","sourcesContent":["<template>\n    <h1 class=\"size-1 p-2\">\n        {{ text }}\n    </h1>\n</template>\n\n<script>\nexport default {\n    props: {\n        text: {\n            type: String,\n            default: '',\n            required: false\n        }\n    }\n}\n</script>\n\n<style scoped>\n    @import \"../node_modules/bulma/css/bulma.css\";\n    .size-1 {\n        font-size: 48px;\n    }\n</style>\n"]}, media: undefined });
 
   };
   /* scoped */
-  var __vue_scope_id__ = "data-v-3ef96eb8";
+  var __vue_scope_id__ = "data-v-4a7b5464";
   /* module identifier */
   var __vue_module_identifier__ = undefined;
   /* functional template */
