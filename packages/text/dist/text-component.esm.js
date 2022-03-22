@@ -151,7 +151,7 @@ var __vue_render__ = function () {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("h1", { staticClass: "size-1" }, [
+  return _c("h1", { staticClass: "size-1 p-2" }, [
     _vm._v("\n    " + _vm._s(_vm.text) + "\n") ])
 };
 var __vue_staticRenderFns__ = [];
@@ -160,11 +160,11 @@ __vue_render__._withStripped = true;
   /* style */
   var __vue_inject_styles__ = function (inject) {
     if (!inject) { return }
-    inject("data-v-657be6b9_0", { source: "\n.size-1[data-v-657be6b9] {\n    font-size: 48px;\n}\n", map: {"version":3,"sources":["/Users/emravera/Traackr/rufus/src/text-component.vue"],"names":[],"mappings":";AAmBA;IACA,eAAA;AACA","file":"text-component.vue","sourcesContent":["<template>\n    <h1 class=\"size-1\">\n        {{ text }}\n    </h1>\n</template>\n\n<script>\nexport default {\n    props: {\n        text: {\n            type: String,\n            default: '',\n            required: false\n        }\n    }\n}\n</script>\n\n<style scoped>\n    .size-1 {\n        font-size: 48px;\n    }\n</style>\n"]}, media: undefined });
+    inject("data-v-3ef96eb8_0", { source: "\n@import \"./node_modules/bulma/css/bulma.css\";\n.size-1[data-v-3ef96eb8] {\n        font-size: 48px;\n}\n", map: {"version":3,"sources":["/Users/emravera/Traackr/ruffus/packages/text/src/text-component.vue"],"names":[],"mappings":";AAmBA,4CAAA;AACA;QACA,eAAA;AACA","file":"text-component.vue","sourcesContent":["<template>\n    <h1 class=\"size-1 p-2\">\n        {{ text }}\n    </h1>\n</template>\n\n<script>\nexport default {\n    props: {\n        text: {\n            type: String,\n            default: '',\n            required: false\n        }\n    }\n}\n</script>\n\n<style scoped>\n@import \"./node_modules/bulma/css/bulma.css\";\n    .size-1 {\n        font-size: 48px;\n    }\n</style>\n"]}, media: undefined });
 
   };
   /* scoped */
-  var __vue_scope_id__ = "data-v-657be6b9";
+  var __vue_scope_id__ = "data-v-3ef96eb8";
   /* module identifier */
   var __vue_module_identifier__ = undefined;
   /* functional template */
@@ -188,7 +188,7 @@ __vue_render__._withStripped = true;
     undefined
   );
 
-// Import vue component
+// Import test vue component
 
 // Declare install function executed by Vue.use()
 function install(Vue) {

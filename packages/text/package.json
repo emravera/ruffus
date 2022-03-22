@@ -22,7 +22,8 @@
     "rollup": "^1.17.0",
     "rollup-plugin-vue": "^5.0.1",
     "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "bulma": "^0.9.3"
   },
   "gitHead": "9fce617dddd416c58b91cb907d8237dcfa9cc66c"
 }
