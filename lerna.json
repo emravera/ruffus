@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/text"
+    "packages/text",
+    "packages/button"
   ],
   "version": "0.0.6"
 }
