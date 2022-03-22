@@ -1,6 +1,6 @@
 <template>
     <button class="color">
-        <text-component> {{ text }} </text-component>
+        <text-component :text="text"></text-component>
     </button>
 </template>
 
