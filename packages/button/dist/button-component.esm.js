@@ -151,7 +151,7 @@ var __vue_render__$1 = function () {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("h1", { staticClass: "size-1 p-2" }, [
+  return _c("h1", { staticClass: "size-1" }, [
     _vm._v("\n    " + _vm._s(_vm.text) + "\n") ])
 };
 var __vue_staticRenderFns__$1 = [];
@@ -160,11 +160,11 @@ __vue_render__$1._withStripped = true;
   /* style */
   var __vue_inject_styles__$1 = function (inject) {
     if (!inject) { return }
-    inject("data-v-4a7b5464_0", { source: "\n@import \"../node_modules/bulma/css/bulma.css\";\n.size-1[data-v-4a7b5464] {\n    font-size: 48px;\n}\n", map: {"version":3,"sources":["/Users/emravera/Traackr/ruffus/packages/text/src/text-component.vue"],"names":[],"mappings":";AAmBA,6CAAA;AACA;IACA,eAAA;AACA","file":"text-component.vue","sourcesContent":["<template>\n    <h1 class=\"size-1 p-2\">\n        {{ text }}\n    </h1>\n</template>\n\n<script>\nexport default {\n    props: {\n        text: {\n            type: String,\n            default: '',\n            required: false\n        }\n    }\n}\n</script>\n\n<style scoped>\n    @import \"../node_modules/bulma/css/bulma.css\";\n    .size-1 {\n        font-size: 48px;\n    }\n</style>\n"]}, media: undefined });
+    inject("data-v-9bd7f15a_0", { source: "\n.size-1[data-v-9bd7f15a] {\n    font-size: 48px;\n}\n", map: {"version":3,"sources":["/Users/emravera/Traackr/ruffus/packages/text/src/text-component.vue"],"names":[],"mappings":";AAmBA;IACA,eAAA;AACA","file":"text-component.vue","sourcesContent":["<template>\n    <h1 class=\"size-1\">\n        {{ text }}\n    </h1>\n</template>\n\n<script>\nexport default {\n    props: {\n        text: {\n            type: String,\n            default: '',\n            required: false\n        }\n    }\n}\n</script>\n\n<style scoped>\n    .size-1 {\n        font-size: 48px;\n    }\n</style>\n"]}, media: undefined });
 
   };
   /* scoped */
-  var __vue_scope_id__$1 = "data-v-4a7b5464";
+  var __vue_scope_id__$1 = "data-v-9bd7f15a";
   /* module identifier */
   var __vue_module_identifier__$1 = undefined;
   /* functional template */
@@ -366,7 +366,7 @@ var __vue_render__ = function () {
   return _c(
     "button",
     { staticClass: "color" },
-    [_c("text-component", [_vm._v(" " + _vm._s(_vm.text) + " ")])],
+    [_c("text-component", { attrs: { text: _vm.text } })],
     1
   )
 };
@@ -376,11 +376,11 @@ __vue_render__._withStripped = true;
   /* style */
   var __vue_inject_styles__ = function (inject) {
     if (!inject) { return }
-    inject("data-v-2e19b7a1_0", { source: "\n.color[data-v-2e19b7a1] {\n    color: blue;\n}\n", map: {"version":3,"sources":["/Users/emravera/Traackr/ruffus/packages/button/src/button-component.vue"],"names":[],"mappings":";AAuBA;IACA,WAAA;AACA","file":"button-component.vue","sourcesContent":["<template>\n    <button class=\"color\">\n        <text-component> {{ text }} </text-component>\n    </button>\n</template>\n\n<script>\nimport TextComponent from '@ruffus/text';\nexport default {\n    props: {\n        text: {\n            type: String,\n            default: '',\n            required: false\n        }\n    },\n    components: {\n        TextComponent\n    }\n}\n</script>\n\n<style scoped>\n    .color {\n        color: blue;\n    }\n</style>\n"]}, media: undefined });
+    inject("data-v-a663fb62_0", { source: "\n.color[data-v-a663fb62] {\n    color: blue;\n}\n", map: {"version":3,"sources":["/Users/emravera/Traackr/ruffus/packages/button/src/button-component.vue"],"names":[],"mappings":";AAuBA;IACA,WAAA;AACA","file":"button-component.vue","sourcesContent":["<template>\n    <button class=\"color\">\n        <text-component :text=\"text\"></text-component>\n    </button>\n</template>\n\n<script>\nimport TextComponent from '@ruffus/text';\nexport default {\n    props: {\n        text: {\n            type: String,\n            default: '',\n            required: false\n        }\n    },\n    components: {\n        TextComponent\n    }\n}\n</script>\n\n<style scoped>\n    .color {\n        color: blue;\n    }\n</style>\n"]}, media: undefined });
 
   };
   /* scoped */
-  var __vue_scope_id__ = "data-v-2e19b7a1";
+  var __vue_scope_id__ = "data-v-a663fb62";
   /* module identifier */
   var __vue_module_identifier__ = undefined;
   /* functional template */
