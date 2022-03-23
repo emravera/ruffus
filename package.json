@@ -1,7 +1,22 @@
 {
-  "name": "root",
+  "name": "ruffus",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@babel/core": "^7.17.8",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/vue": "^6.4.19",
+    "babel-loader": "^8.2.4",
+    "lerna": "^4.0.0",
+    "sb": "6.4.19",
+    "vue-loader": "^15.9.8",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }

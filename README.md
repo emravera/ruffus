@@ -27,5 +27,20 @@ lerna bootstrap
 ## Libs components
 
 1. Text
-2. Button
-3. Composed Element
+2. Button (Composed Element)
+
+## Storybook
+
+In order to test the components we have storybook in place.
+
+```
+npm run build-storybook
+```
+
+To run in localhost:
+
+```
+npm run storybook
+```
+
+This runs the server on the port 6006.
